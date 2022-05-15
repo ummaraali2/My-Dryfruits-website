@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 5px;
+    background-color: bisque;
+    align-content: center;
+    text-align: center;
+ }
+ *{
+    
+        box-sizing: border-box;
+     
+ }
+ label {
+    margin: 15px;
+ }
+ input[type="text"] {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 20px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+ }
+ label {
+    margin-left: 20px;
+    display: block;
+ }
+ .checkout {
+    background-color: #4caf50;
+    color: white;
+    padding: 7px;
+    margin: 10px 0;
+    border: none;
+    width: 15%;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 17px;
+    
+ }
+ .formContainer {
+    margin: 10px;
+    background-color: #efffc9;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(191, 246, 250);
+    border-radius: 1px; }
+
+
+    a {
+        color: black;
+     }
+     span.price {
+        float: right;
+        color: grey;
+     }
+     @media (max-width: 800px) {
+     .Fields {
+        flex-direction: column-reverse;
+     }
+     }
+    
